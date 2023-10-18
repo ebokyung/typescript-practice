@@ -1,0 +1,43 @@
+:root {
+    --bg-main-color: #00000080;
+    --bg-accent-color: #2d2d2d;
+    --accent-color: #f64435;
+    --text-accent-color: #ffe498;
+    --text-edit-bg-color: #575757;
+    --border-color: #3f3f3f;
+    --shadow-color: #202020;
+    --document-bg-color: #68686850;
+    --component-bg-gradient: radial-gradient(circle, #646464e6 0%, #363636e6 100%);
+    --smokywhite: #dddbd8;
+    --black: #000000;
+    --translucent-black: #00000099;
+}
+
+.a11y-hidden {
+clip: rect(1px, 1px, 1px, 1px);
+clip-path: inset(50%);
+width: 1px;
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 3.125rem .625rem;
+}
+button {
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    background-color: var(--accent-color);
+}
+.delete-btn {
+    background-color: inherit;
+    color: var(--accent-color);
+    font-size: 1rem;
+}

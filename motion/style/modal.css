@@ -1,0 +1,21 @@
+article {
+    background: var(--component-bg-gradient);
+    margin-bottom: 20px;
+    padding: 1.25rem .5rem;
+}
+
+fieldset{
+    border-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+label{
+    color: var(--text-accent-color);
+}
+
+input {
+    display: block;
+    width: 100%;
+    background-color: var(--text-edit-bg-color);
+}
