@@ -1,4 +1,5 @@
 import { BaseComponent } from './../component.js';
+import { Component } from './../component.js';
 
 export interface Composable {
     addChild(child: Component): void;
